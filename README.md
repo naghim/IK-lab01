@@ -4,7 +4,7 @@
 
 A tantárgy keretén belül Pythonban fogunk dolgozni és a [Google Colab](https://colab.research.google.com) webalkalmazását fogjunk használni a programok megírására és futtatására a felhőben, a Google szerverein.
 
-A Google Colab a [Jupyter](https://jupyter.org)  notebook tervezési és működési rendszerére alapszik, ugyancsak a `.ipynb` kiterjesztésű fájlokkal dolgozik.  A platform megkönnyíti az "interaktív futtatható dokumentumok" - jegyzetfüzetek [Jupyter](https://jupyter.org) notebook - létrehozását és megosztását, amelyek  Python-kódrészleteket és ezek futtatási eredményét tartalmazza, valamint szöveg és képeket tartalmazó cellákat, amelyek általában a számítások és az eredmények ismertetésére szolgálnak. 
+A Google Colab a [Jupyter](https://jupyter.org)  notebook tervezési és működési rendszerére alapszik, ugyancsak a `.ipynb` kiterjesztésű fájlokkal dolgozik.  A platform megkönnyíti az "interaktív futtatható dokumentumok" - jegyzetfüzetek ([Jupyter](https://jupyter.org) notebookok) - létrehozását és megosztását, amelyek  Python-kódrészleteket és ezek futtatási eredményét tartalmazza, valamint szöveg és képeket tartalmazó cellákat, amelyek általában a számítások és az eredmények ismertetésére szolgálnak. 
 
 A Colab legnagyobb előnye az, hogy nem szükséges alkalmazást letölteni vagy telepíteni a számítógépre, hanem a fejlesztői és futtatási környezet online elérhető, bármely böngésző segítségével. A használata egyelőre ingyenes, a Google Drive tárhelyen lesznek létrehozva és tárolva a `.ipynb` fájlok, amelyeket a Colab használ. Ugyancsak a Google Drive tárhelyről fogjuk betölteni a feldolgozandó adatokat, és ide fogjuk kiírni az eredményeket.
 
