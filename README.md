@@ -20,15 +20,15 @@ Egy privát notebook megnyitásához:
 
 ![](https://miro.medium.com/max/1400/0*Ys5wViSUyBGmawO6.png) 
 
-2. Kattint a jobb oldalon található  "Include private repos" checkbox-ra. 
-3.  Az felugró ablakban jelentkezz be a GitHub fiókodba, és engedélyezd, hogy a Colab privát fájlokat és repókat is olvashassa. 
-4. Ha ez megtörtént,  a repók és ezen belül a privát notebookok is elérhetők lesznek a GitHub navigációs panelen keresztül. 
-5. A laborgyakorlatok elfogadásakor válassza ki a GitHub Classroom által létrehozott repót (`IR2022-labX-usernamegithub`). 
+2. Kattints a jobb oldalon található  "Include private repos" checkbox-ra. 
+3. Az felugró ablakban jelentkezz be a GitHub fiókodba, és engedélyezd, hogy a Colab privát fájlokat és repókat is olvashassa. 
+4. Ha ez megtörtént, a repók és ezen belül a privát notebookok is elérhetők lesznek a GitHub navigációs panelen keresztül. 
+5. A laborgyakorlatok elfogadásakor válassza ki a GitHub Classroom által létrehozott repót (`IK2024-labX-usernamegithub`). 
 
 # Jegyzetfüzetek mentése GitHubra 
 
-Minden alkalommal, amikor a GitHubon tárolt notebookot Colabban megnyitjuk, a jegyzetfüzetről egy szerkeszthető **másolat** készül. Így nyugodtan tesztelhetjük és módosíthatjuk a notebookot, anélkül, hogy aggódnunk kéne, hogy  felülírjuk, "elrontjuk" a forrást. Azonban, a laboron elvégzett változtatásokat, megoldott gyakorlatokat, a kapott megoldásokat a GitHubban, az órák végén el kell mentenünk. Ehhez a művelethez használjuk a **File→Save a copy to GitHub** menüpontot, kövesse az utasításokat, és engedélyezze a Colab számára a „Commit & Push” jogosultságot. 
+Minden alkalommal, amikor a GitHubon tárolt notebookot Colabban megnyitjuk, a jegyzetfüzetről egy szerkeszthető **másolat** készül. Így nyugodtan tesztelhetjük és módosíthatjuk a notebookot, anélkül, hogy aggódnunk kéne, hogy  felülírjuk, "elrontjuk" a forrást. Azonban, a laboron elvégzett változtatásokat, megoldott gyakorlatokat, a kapott megoldásokat a GitHubban, az órák végén el kell mentenünk. Ehhez a művelethez használjuk a **File→Save a copy to GitHub** menüpontot, kövesd az utasításokat, és engedélyezd a Colab számára a „Commit & Push” jogosultságot. 
 
 # Feladatok 
-1. Nézze meg a [Google Colab rövid ismertető videóját](https://www.youtube.com/watch?v=inN8seMm7UI&t=2s). Melyek a platform legfontosabb jellemzői?
-2. Nyissuk meg  (sorszámuk szerint) sorra Colabban a laborhoz tartozó `ipynb` notebook fájlokat, és oldjuk meg a feladatokat. A laboróra végén ne felejtsük el visszamenteni a szerkesztett jegyzetfüzeteket a GitHubra.
+1. Nézd meg a [Google Colab rövid ismertető videóját](https://www.youtube.com/watch?v=inN8seMm7UI&t=2s). Melyek a platform legfontosabb jellemzői?
+2. Nyisd meg (sorszámuk szerint) sorra Colabban a laborhoz tartozó `ipynb` notebook fájlokat, és oldd meg a feladatokat. A laboróra végén ne felejtsük el visszamenteni a szerkesztett jegyzetfüzeteket a GitHubra.
