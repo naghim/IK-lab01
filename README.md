@@ -1,34 +1,29 @@
 # Labor 01
 
-# Google Colab 
+# Git repositoryk
 
-A tantárgy keretén belül Pythonban fogunk dolgozni és a [Google Colab](https://colab.research.google.com) webalkalmazását fogjunk használni a programok megírására és futtatására a felhőben, a Google szerverein.
+Mielőtt elkezditek a laborfeladat megoldását, kérlek töltsétek ki a következő Google Forms kérdőívet a Git repository elérésekkel [itt.](https://forms.gle/2pArQ8zQ9L684tkR9)
 
-A Google Colab a [Jupyter](https://jupyter.org)  notebook tervezési és működési rendszerére alapszik, ugyancsak a `.ipynb` kiterjesztésű fájlokkal dolgozik.  A platform megkönnyíti az "interaktív futtatható dokumentumok" - jegyzetfüzetek ([Jupyter](https://jupyter.org) notebookok) - létrehozását és megosztását, amelyek  Python-kódrészleteket és ezek futtatási eredményét tartalmazza, valamint szöveg és képeket tartalmazó cellákat, amelyek általában a számítások és az eredmények ismertetésére szolgálnak. 
+# Jupyter notebookok
 
-A Colab legnagyobb előnye az, hogy nem szükséges alkalmazást letölteni vagy telepíteni a számítógépre, hanem a fejlesztői és futtatási környezet online elérhető, bármely böngésző segítségével. A használata egyelőre ingyenes, a Google Drive tárhelyen lesznek létrehozva és tárolva a `.ipynb` fájlok, amelyeket a Colab használ. Ugyancsak a Google Drive tárhelyről fogjuk betölteni a feldolgozandó adatokat, és ide fogjuk kiírni az eredményeket.
+A tantárgy keretén belül Pythonban fogunk dolgozni és a [Visual Studio Code](https://code.visualstudio.com) alkalmazását fogjunk használni a programok megírására és futtatására lokális számítógépen.
 
-A rendszer bővebb ismertetése itt található: https://colab.research.google.com/notebooks/basic_features_overview.ipynb 
+A Visual Studio Code képes a [Jupyter](https://jupyter.org) notebook tervezési és működési rendszerét használni, extension segítségével képes a `.ipynb` kiterjesztésű fájlokkal dolgozni. Ezek a fájlok "interaktív futtatható dokumentumok" - jegyzetfüzetek ([Jupyter](https://jupyter.org) notebookok) - amelyek Python-kódrészleteket és ezek futtatási eredményét tartalmazzák, valamint szöveg és képeket tartalmazó cellákat, amelyek általában a számítások és az eredmények ismertetésére szolgálnak.
 
-# Jegyzetfüzet feltöltése a GitHubból 
+A Visual Studio Code önmagában nem ismeri a [Jupyter](https://jupyter.org) notebook állományokat. Ehhez szükséges letölteni egy third-party extensiont: telepítsd a [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) extension-t a Visual Studio Code Marketplaceről, majd indítsd újra a Visual Studio Code alkalmazást.
 
-Egy  jegyzetfüzetet közvetlenül a GitHubról is feltölthető a projekt publikus webcímével. 
+# Jegyzetfüzet feltöltése a GitHubból
 
-Egy privát notebook megnyitásához: 
+Egy jegyzetfüzetet közvetlenül a GitHubról is fel lehet tölteni a projekt publikus webcímével. Ajánlatos viszont telepíteni egy Git környezetet és letölteni a repositoryt saját számítógépre. A git használatához segítséget kaphatsz a [Git útmutatóban](Git%20útmutató.pdf), ami ugyanebben a repositoryban található. Ha nem képes kinyitni a Visual Studio Code a PDF állományokat, telepítsd a [vscode-pdf](https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf) nevű extensiont a Marketplaceről.
 
-1. Navigálj a http://colab.research.google.com/github címre. 
+# Jegyzetfüzetek mentése GitHubra
 
-![](https://miro.medium.com/max/1400/0*Ys5wViSUyBGmawO6.png) 
+A laboron végzett munkát a laboróra végén mindenképp fel kell tölteni a GitHubra, másképp a jelenlét érvénytelen. A laboron elvárt az aktív munkavégzés, személyes jelenlét mellett. Az aktív munkavégzést a labor időtartalma alatt commitolt munkából fogjuk követni.
 
-2. Kattints a jobb oldalon található  "Include private repos" checkbox-ra. 
-3. Az felugró ablakban jelentkezz be a GitHub fiókodba, és engedélyezd, hogy a Colab privát fájlokat és repókat is olvashassa. 
-4. Ha ez megtörtént, a repók és ezen belül a privát notebookok is elérhetők lesznek a GitHub navigációs panelen keresztül. 
-5. A laborgyakorlatok elfogadásakor válassza ki a GitHub Classroom által létrehozott repót (`IK2024-labX-usernamegithub`). 
+# Feladatok
 
-# Jegyzetfüzetek mentése GitHubra 
+Két feladat van erre a laborórára. Az egyik feladat opcionális: a `python-tutorial` mappában található 6 darab Jupyter notebook, amit érdemes átolvasni, mint gyorstalpaló a Python nyelvnek. A Python tutorial feladatok már meg vannak oldva, így csak át kell őket olvasni.
 
-Minden alkalommal, amikor a GitHubon tárolt notebookot Colabban megnyitjuk, a jegyzetfüzetről egy szerkeszthető **másolat** készül. Így nyugodtan tesztelhetjük és módosíthatjuk a notebookot, anélkül, hogy aggódnunk kéne, hogy  felülírjuk, "elrontjuk" a forrást. Azonban, a laboron elvégzett változtatásokat, megoldott gyakorlatokat, a kapott megoldásokat a GitHubban, az órák végén el kell mentenünk. Ehhez a művelethez használjuk a **File→Save a copy to GitHub** menüpontot, kövesd az utasításokat, és engedélyezd a Colab számára a „Commit & Push” jogosultságot. 
+A laborfeladatok során a Python programozási nyelvet fogjuk használni, ami relatív könnyű, és támogatja azokat a könyvtárakat, amiket a labor során használni fogunk.
 
-# Feladatok 
-1. Nézd meg a [Google Colab rövid ismertető videóját](https://www.youtube.com/watch?v=inN8seMm7UI&t=2s). Melyek a platform legfontosabb jellemzői?
-2. Nyisd meg (sorszámuk szerint) sorra Colabban a laborhoz tartozó `ipynb` notebook fájlokat, és oldd meg a feladatokat. A laboróra végén ne felejtsük el visszamenteni a szerkesztett jegyzetfüzeteket a GitHubra.
+A második feladat kötelező: a [01_06_feladatok.ipynb](01_06_feladatok.ipynb) Jupyter notebook tartalmaz néhány bemelegítő feladatot.
