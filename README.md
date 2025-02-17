@@ -6,7 +6,7 @@ Mielőtt elkezditek a laborfeladat megoldását, kérlek töltsétek ki a követ
 
 # Jupyter notebookok
 
-A tantárgy keretén belül Pythonban fogunk dolgozni és a [Visual Studio Code](https://code.visualstudio.com) alkalmazását fogjunk használni a programok megírására és futtatására lokális számítógépen.
+A tantárgy keretén belül Pythonban fogunk dolgozni és a [Visual Studio Code](https://code.visualstudio.com) alkalmazást fogjunk használni a programok megírására és futtatására lokális számítógépen.
 
 A Visual Studio Code képes a [Jupyter](https://jupyter.org) notebook tervezési és működési rendszerét használni, extension segítségével képes a `.ipynb` kiterjesztésű fájlokkal dolgozni. Ezek a fájlok "interaktív futtatható dokumentumok" - jegyzetfüzetek ([Jupyter](https://jupyter.org) notebookok) - amelyek Python-kódrészleteket és ezek futtatási eredményét tartalmazzák, valamint szöveg és képeket tartalmazó cellákat, amelyek általában a számítások és az eredmények ismertetésére szolgálnak.
 
